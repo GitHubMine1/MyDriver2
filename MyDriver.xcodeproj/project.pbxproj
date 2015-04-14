@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		13DC01721ADCE3B3001818D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DC01711ADCE3B3001818D4 /* main.m */; };
 		13DC01751ADCE3B3001818D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DC01741ADCE3B3001818D4 /* AppDelegate.m */; };
-		13DC01781ADCE3B3001818D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DC01771ADCE3B3001818D4 /* ViewController.m */; };
-		13DC017B1ADCE3B3001818D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13DC01791ADCE3B3001818D4 /* Main.storyboard */; };
-		13DC017D1ADCE3B3001818D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13DC017C1ADCE3B3001818D4 /* Images.xcassets */; };
 		13DC01801ADCE3B3001818D4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13DC017E1ADCE3B3001818D4 /* LaunchScreen.xib */; };
 		13DC018C1ADCE3B3001818D4 /* MyDriverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DC018B1ADCE3B3001818D4 /* MyDriverTests.m */; };
+		13DC01981ADCECB6001818D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13DC01971ADCECB6001818D4 /* Images.xcassets */; };
+		13DC01AE1ADD02DB001818D4 /* LQLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DC01AD1ADD02DB001818D4 /* LQLoginViewController.m */; };
+		13DC01B21ADD04BD001818D4 /* CheckUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DC01B11ADD04BD001818D4 /* CheckUtil.m */; };
+		13DC01B51ADD04D4001818D4 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DC01B41ADD04D4001818D4 /* User.m */; };
+		13DC01C41ADD1A83001818D4 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DC01C01ADD1A83001818D4 /* MBProgressHUD+MJ.m */; };
+		13DC01C51ADD1A83001818D4 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13DC01C11ADD1A83001818D4 /* MBProgressHUD.bundle */; };
+		13DC01C61ADD1A83001818D4 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DC01C31ADD1A83001818D4 /* MBProgressHUD.m */; };
+		13DC01C91ADD2C06001818D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13DC01C71ADD2C06001818D4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +37,23 @@
 		13DC01711ADCE3B3001818D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		13DC01731ADCE3B3001818D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		13DC01741ADCE3B3001818D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		13DC01761ADCE3B3001818D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		13DC01771ADCE3B3001818D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		13DC017A1ADCE3B3001818D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		13DC017C1ADCE3B3001818D4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		13DC017F1ADCE3B3001818D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13DC01851ADCE3B3001818D4 /* MyDriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDriverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13DC018A1ADCE3B3001818D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13DC018B1ADCE3B3001818D4 /* MyDriverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDriverTests.m; sourceTree = "<group>"; };
+		13DC01971ADCECB6001818D4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		13DC01AC1ADD02DB001818D4 /* LQLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQLoginViewController.h; sourceTree = "<group>"; };
+		13DC01AD1ADD02DB001818D4 /* LQLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQLoginViewController.m; sourceTree = "<group>"; };
+		13DC01B01ADD04BD001818D4 /* CheckUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckUtil.h; sourceTree = "<group>"; };
+		13DC01B11ADD04BD001818D4 /* CheckUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckUtil.m; sourceTree = "<group>"; };
+		13DC01B31ADD04D4001818D4 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		13DC01B41ADD04D4001818D4 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		13DC01BF1ADD1A83001818D4 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		13DC01C01ADD1A83001818D4 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		13DC01C11ADD1A83001818D4 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		13DC01C21ADD1A83001818D4 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		13DC01C31ADD1A83001818D4 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		13DC01C81ADD2C06001818D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +95,12 @@
 		13DC016E1ADCE3B3001818D4 /* MyDriver */ = {
 			isa = PBXGroup;
 			children = (
-				13DC01731ADCE3B3001818D4 /* AppDelegate.h */,
-				13DC01741ADCE3B3001818D4 /* AppDelegate.m */,
-				13DC01761ADCE3B3001818D4 /* ViewController.h */,
-				13DC01771ADCE3B3001818D4 /* ViewController.m */,
-				13DC01791ADCE3B3001818D4 /* Main.storyboard */,
-				13DC017C1ADCE3B3001818D4 /* Images.xcassets */,
-				13DC017E1ADCE3B3001818D4 /* LaunchScreen.xib */,
+				13DC01B61ADD111D001818D4 /* Third-party */,
+				13DC01AF1ADD0469001818D4 /* Utils */,
+				13DC01A61ADCF3B8001818D4 /* Others */,
+				13DC01A51ADCF39C001818D4 /* Views */,
+				13DC01A41ADCF393001818D4 /* Models */,
+				13DC01A31ADCF38B001818D4 /* Controllers */,
 				13DC016F1ADCE3B3001818D4 /* Supporting Files */,
 			);
 			path = MyDriver;
@@ -96,6 +109,9 @@
 		13DC016F1ADCE3B3001818D4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				13DC017E1ADCE3B3001818D4 /* LaunchScreen.xib */,
+				13DC01C71ADD2C06001818D4 /* Main.storyboard */,
+				13DC01971ADCECB6001818D4 /* Images.xcassets */,
 				13DC01701ADCE3B3001818D4 /* Info.plist */,
 				13DC01711ADCE3B3001818D4 /* main.m */,
 			);
@@ -117,6 +133,69 @@
 				13DC018A1ADCE3B3001818D4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13DC01A31ADCF38B001818D4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				13DC01AC1ADD02DB001818D4 /* LQLoginViewController.h */,
+				13DC01AD1ADD02DB001818D4 /* LQLoginViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		13DC01A41ADCF393001818D4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				13DC01B31ADD04D4001818D4 /* User.h */,
+				13DC01B41ADD04D4001818D4 /* User.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		13DC01A51ADCF39C001818D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		13DC01A61ADCF3B8001818D4 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				13DC01731ADCE3B3001818D4 /* AppDelegate.h */,
+				13DC01741ADCE3B3001818D4 /* AppDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		13DC01AF1ADD0469001818D4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				13DC01B01ADD04BD001818D4 /* CheckUtil.h */,
+				13DC01B11ADD04BD001818D4 /* CheckUtil.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		13DC01B61ADD111D001818D4 /* Third-party */ = {
+			isa = PBXGroup;
+			children = (
+				13DC01BE1ADD1A83001818D4 /* MBProgressHUD */,
+			);
+			name = "Third-party";
+			sourceTree = "<group>";
+		};
+		13DC01BE1ADD1A83001818D4 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				13DC01BF1ADD1A83001818D4 /* MBProgressHUD+MJ.h */,
+				13DC01C01ADD1A83001818D4 /* MBProgressHUD+MJ.m */,
+				13DC01C11ADD1A83001818D4 /* MBProgressHUD.bundle */,
+				13DC01C21ADD1A83001818D4 /* MBProgressHUD.h */,
+				13DC01C31ADD1A83001818D4 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +278,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13DC017B1ADCE3B3001818D4 /* Main.storyboard in Resources */,
+				13DC01C51ADD1A83001818D4 /* MBProgressHUD.bundle in Resources */,
+				13DC01981ADCECB6001818D4 /* Images.xcassets in Resources */,
 				13DC01801ADCE3B3001818D4 /* LaunchScreen.xib in Resources */,
-				13DC017D1ADCE3B3001818D4 /* Images.xcassets in Resources */,
+				13DC01C91ADD2C06001818D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +299,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13DC01781ADCE3B3001818D4 /* ViewController.m in Sources */,
+				13DC01C41ADD1A83001818D4 /* MBProgressHUD+MJ.m in Sources */,
+				13DC01B51ADD04D4001818D4 /* User.m in Sources */,
 				13DC01751ADCE3B3001818D4 /* AppDelegate.m in Sources */,
+				13DC01AE1ADD02DB001818D4 /* LQLoginViewController.m in Sources */,
+				13DC01B21ADD04BD001818D4 /* CheckUtil.m in Sources */,
 				13DC01721ADCE3B3001818D4 /* main.m in Sources */,
+				13DC01C61ADD1A83001818D4 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,20 +328,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		13DC01791ADCE3B3001818D4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13DC017A1ADCE3B3001818D4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		13DC017E1ADCE3B3001818D4 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				13DC017F1ADCE3B3001818D4 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		13DC01C71ADD2C06001818D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13DC01C81ADD2C06001818D4 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -286,6 +370,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -326,6 +411,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -344,7 +430,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyDriver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyDriver/MBProgressHUD",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -354,7 +445,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyDriver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyDriver/MBProgressHUD",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -412,6 +508,7 @@
 				13DC01911ADCE3B3001818D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13DC01921ADCE3B3001818D4 /* Build configuration list for PBXNativeTarget "MyDriverTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +517,7 @@
 				13DC01941ADCE3B3001818D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

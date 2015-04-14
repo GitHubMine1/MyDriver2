@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LQLoginController.h
 //  MyDriver
 //
 //  Created by 卢群 on 15/4/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LQLoginController : UIViewController
 
 @end
-
